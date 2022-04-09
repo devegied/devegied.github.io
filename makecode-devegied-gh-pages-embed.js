@@ -80,6 +80,6 @@ function makeCodeRender(targetUrl, repo) {
         renderPre(pre);
     })
     Array.prototype.forEach.call(document.querySelectorAll("pre>code[class=language-package]"), function (pre) {
-        pre.parentElement.removeChild(pre);
+        pre.parentElement.parentElement.removeChild(pre.parentElement);
     })
 }
