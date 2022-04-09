@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+# GitHub Pages for devegied
 
-You can use the [editor on GitHub](https://github.com/devegied/devegied.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## micro:bit extensions for MakeCode
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- [LED Digit Display Module (TM1637)](https://github.com/devegied/pxt-tm1637)
+- [Extension for micro:bit mounted on Nintendo Labo wheel](https://github.com/devegied/pxt-labo-wheel)
+- [MakeCode blocks for driving the WEMOS Motor Shield](https://github.com/devegied/pxt-wemos-motor-shield)
 
-### Markdown
+## micro:bit projects
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- [Testuojame servo variklius su Magic:Bit V3.0](https://devegied.github.io/microbit-project-magicbit-servo-testing/)
 
-```markdown
-Syntax highlighted code block
+## Hardware
 
-# Header 1
-## Header 2
-### Header 3
+- [Motor shield hardware for controlling 8 DC motors](https://github.com/devegied/gego_motor_shield_hw)
 
-- Bulleted
-- List
+## Others
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/devegied/devegied.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- [testing CubeMX, UART, I2C and Black Magic Probe with PlatformIO on STM32F030](https://github.com/devegied/f030_wms_bmp_serial_i2c)
+- [Arduino project to implement I2C master for I2C slave testing](https://github.com/devegied/i2c_test_ArduinoMaster)
