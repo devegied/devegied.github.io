@@ -55,7 +55,7 @@ function makeCodeRender(targetUrl, repo) {
         console.log(msg.type)
         switch (msg.type) {
             case "renderready":
-                // flush pending requests            				
+                // flush pending requests
                 var pres = pendingPres;
                 // set as undefined to notify that iframe is ready
                 pendingPres = undefined;
@@ -76,8 +76,10 @@ function makeCodeRender(targetUrl, repo) {
         }
     }, false);
 
-    var pres = document.querySelectorAll("pre>code[class=language-block],pre>code[class=language-blocks]");
-    Array.prototype.forEach.call(pres, function (pre) {
+    Array.prototype.forEach.call(document.querySelectorAll("pre>code[class=language-block],pre>code[class=language-blocks]"), function (pre) {
         renderPre(pre);
+    })
+    Array.prototype.forEach.call(document.querySelectorAll("pre>code[class=language-package]"), function (pre) {
+        pre.parentElement.removeChild(pre);
     })
 }
