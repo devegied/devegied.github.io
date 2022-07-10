@@ -40,8 +40,8 @@ function makeCodeRender(targetUrl, repo) {
                 id: pre.id,
                 code: pre.innerText,
                 options: {
-                	package: "extension=github:" + repo,
-                  snippetMode: pre.className == "language-block"
+                    package: "extension=github:" + repo,
+                    snippetMode: pre.className == "language-block"||pre.className == "language-sig"
                 }
             }, targetUrl);
         }
@@ -76,7 +76,7 @@ function makeCodeRender(targetUrl, repo) {
         }
     }, false);
 
-    Array.prototype.forEach.call(document.querySelectorAll("pre>code[class=language-block],pre>code[class=language-blocks]"), function (pre) {
+    Array.prototype.forEach.call(document.querySelectorAll("pre>code[class=language-block],pre>code[class=language-blocks],pre>code[class=language-sig]"), function (pre) {
         renderPre(pre);
     })
     Array.prototype.forEach.call(document.querySelectorAll("pre>code[class=language-package]"), function (pre) {
