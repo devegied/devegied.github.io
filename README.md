@@ -2,6 +2,7 @@
 
 ## micro:bit extensions for MakeCode
 
+- [Seven segments LED Display Driver (MAX6958)](https://github.com/devegied/pxt-max6958)
 - [LED Digit Display Module (TM1637)](https://github.com/devegied/pxt-tm1637)
 - [Extension for micro:bit mounted on Nintendo Labo wheel](https://github.com/devegied/pxt-labo-wheel)
 - [MakeCode blocks for driving the WEMOS Motor Shield](https://github.com/devegied/pxt-wemos-motor-shield)
